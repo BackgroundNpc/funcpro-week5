@@ -13,11 +13,17 @@ object MajorWS {
  		}else if (predicate2==1){
 		return 1
  		}else{
- 		fib(y-1) + fib(y-2);
+ 		println(predicate1)
+ 		println(predicate2)
+ 		(fib(y-1) + fib(y-2));
  }
- }                                                //> fib: (y: Int)Int
- println(fib(6));                                 //> 3
-
+ }
+ fib(6);
+ fib(5);
+ fib(4);
+ 
+ 
+ /** Doesnt work**/
  
  /** Question 2**/
  
@@ -31,10 +37,10 @@ object MajorWS {
 	}else{
   println("Error");
 	}
-}                                                 //> fizzString: (fizzString: String)Unit
-fizzString("fizz");                               //> Fizz
-fizzString("fizzb");                              //> FizzBuzz
-fizzString("bubz");                               //> Buzz
+}
+fizzString("fizz");
+fizzString("fizzb");
+fizzString("bubz");
 
 /** Question 3**/
 
@@ -43,16 +49,16 @@ def factorial (n:Int):Int ={
 	(n*n)
 	}else
 	{n*(n-1)}
-};                                                //> factorial: (n: Int)Int
-println(factorial(1))                             //> 1
-println(factorial(2))                             //> 2
-println(factorial(3))                             //> 6
+};
+println(factorial(1))
+println(factorial(2))
+println(factorial(3))
 
 
 
 /** Question 4**/
 
-val a = 0;                                        //> a  : Int = 0
+val a = 0;
 
 def sums(b: Int):Unit  = {
 	if(b >100){
@@ -61,7 +67,9 @@ def sums(b: Int):Unit  = {
 	}else{
 
 	}
-}                                                 //> sums: (b: Int)Unit
+}
 sums(711);
+
+ /** Doesnt work**/
 
 }
